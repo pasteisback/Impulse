@@ -1,0 +1,7 @@
+function checkcaller()
+	local info = debug.info(getgenv, 'slnaf')
+	return debug.info(1, 'slnaf')==info
+end
+function identifyexecutor()
+   return "Impulse V1"
+end
